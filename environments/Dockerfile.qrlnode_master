@@ -22,8 +22,7 @@ RUN dos2unix /root/start.sh
 # TODO: Map to host directory to keep wallets outside
 
 # START SCRIPT
-#CMD ["/root/start.sh"]
-CMD ["tail", "-f", "/dev/null"]
+CMD ["/root/start.sh"]
 
 # EXPOSE PORTS
 # TODO: Map ports to get access from outside
